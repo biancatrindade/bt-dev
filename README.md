@@ -1,4 +1,4 @@
-# meusite
-Meu segundo site (em criação)
+# Projeto Final | BootCamp <descodificadas>
+Site de Bianca Trindade criado como forma de entrega de projeto para o BootCamp <descodificadas>.
 
-Em criação apenas com HTML, em breve atualizações em CSS e JavaScript. 
+Para a criação desse site, foi utilizado HTML, CSS e JavaScript. 
