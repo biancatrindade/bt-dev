@@ -12,9 +12,9 @@ section {
     background-size: cover;
     background-position: center;
     color: white;
-    font-size: 50px;
+    font-size: 30px;
     text-align: center;
-    padding: 100px 50px 10px 0px;
+    padding: 80px 5px 100px 0px;
     margin: -8px -8px 0px -8px;
 }
 
@@ -30,23 +30,23 @@ section {
   float: right;
   color: #f2f2f2;
   text-align: left;
-  padding: 14px 100px;
-  margin: 0px 150px 0px 150px;
+  padding: 14px 10px;
+  margin: 0px 15px 0px 15px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 #introducao{
     background-color:#57bb8a; 
     color: white; 
-    font-size:25px;
+    font-size:20px;
     margin: 0px -8px 0px -8px;
 }
 
 #jornada{
     background-color:#eaebe6; 
     margin: 0px -8px 0px -8px;
-    padding: 100px 100px 150px 300px;
+    padding: 50px 100px 100px 200px;
 }
 
 #astronauta {
@@ -57,7 +57,7 @@ section {
 #aprendizado {
     color: rgb(104, 104, 104);
     text-align: right;
-    font-size:30px;
+    font-size:21px;
     padding-right: 50px;
 }
 
@@ -71,7 +71,7 @@ section {
 }
 
 div.box {
-	width: 400px;
+	width: 200px;
 	display: inline-block;
     align-items: center;
 }
@@ -89,7 +89,7 @@ footer {
     background-size: cover;
     background-position: center;
     color: white;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     padding: 80px 0px 10px 0px;
     margin: -8px -8px 0px -8px;
@@ -97,7 +97,7 @@ footer {
 }
 
 form {
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
 }
 
