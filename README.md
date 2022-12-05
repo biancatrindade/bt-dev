@@ -1,5 +1,5 @@
-# Projeto Final | BootCamp <descodificadas>
-Site de Bianca Trindade criado como forma de entrega de projeto para o BootCamp Descodificadas.
+# Projeto Final | BootCamp Descodificadas
+Site de *Bianca Trindade* como forma de projeto final para o BootCamp *Descodificadas*.
 
 Para a criação desse site, foi utilizado HTML, CSS e JavaScript. 
 
