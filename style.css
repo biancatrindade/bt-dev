@@ -1,0 +1,125 @@
+nav {
+    text-align: center;
+}
+
+section {
+    text-align: center;
+}
+
+#titulo { 
+    background-image: url("img/home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding: 100px 50px 10px 0px;
+    margin: -8px -8px 0px -8px;
+}
+
+.topnav {
+    background-color: rgba(128, 128, 128, 0.753);
+    overflow: hidden;
+    display: inline;
+    position:fixed;
+    width: 100%;
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: left;
+  padding: 14px 100px;
+  margin: 0px 150px 0px 150px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+#introducao{
+    background-color:#57bb8a; 
+    color: white; 
+    font-size:25px;
+    margin: 0px -8px 0px -8px;
+}
+
+#jornada{
+    background-color:#eaebe6; 
+    margin: 0px -8px 0px -8px;
+    padding: 100px 100px 150px 300px;
+}
+
+#astronauta {
+    float: left;
+    padding: 10px 10px 0px 10px;
+}
+
+#aprendizado {
+    color: rgb(104, 104, 104);
+    text-align: right;
+    font-size:30px;
+    padding-right: 50px;
+}
+
+#programadoras {
+    background-color: #57bb8a; 
+    text-align: center;
+    margin: -20px -8px 0px -8px;
+    padding: 0px 0px 10px 0px;
+    font-size: 20px;
+    color: white;
+}
+
+div.box {
+	width: 400px;
+	display: inline-block;
+    align-items: center;
+}
+
+footer {
+    background-color:#eaebe6;
+    margin: 0px -8px -8px -8px ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.orcamento { 
+    background-image: url("img/orcamentos.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding: 80px 0px 10px 0px;
+    margin: -8px -8px 0px -8px;
+    width: 100%;
+}
+
+form {
+    font-size: 25px;
+    text-align: center;
+}
+
+#bianca, #sobre {
+    display: inline-block;
+}
+
+#quemsou {
+    text-align: center;
+    padding: 100px 0px 0px 0px ;
+}
+
+.conteudo {
+    text-align: center;
+}
+
+#sobre {
+    padding-left: 100px;
+}
+
+button {
+    background-color:rgba(241, 39, 3, 0.808);
+    font-size: 18px; 
+    color:white;
+}

@@ -7,43 +7,50 @@
     <title>Orçamento</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="img/eu.ico">
-
-    <style>
-        form {text-align: center;}
-    </style>
-</head>
-<body style="background-color:#eaebe6">
-    <img src="img/orcamentos.jpg" alt="Notebook com gráficos" width=1300 height=550>
     
-    <h1><center>Tudo pronto?</center></h1>
-    <h2><center>Hora de solicitar um orçamento!</center></h2>
-    <h4><center>Agora que você já conhece um pouco mais sobre mim e está confiante no meu trabalho, é hora de solicitar um orçamento.</center></h4>
+</head>
+
+<body style="background-color:#eaebe6">
+
+    <div id="menu" class="topnav">
+        <nav>
+            <a target="_self" href="orcamento.html">Orçamento</a>
+            <a target="_self" href="sobremim.html">Sobre mim</a>
+            <a target="_self" href="index.html">Home</a>
+        </nav>
+    </div>
+
+    <div class="orcamento">    
+        <h1><center>Tudo pronto?</center></h1>
+        <h2><center>Hora de solicitar um orçamento!</center></h2>
+    </div>    
+    
+    <h2><center>Agora que você já conhece um pouco mais sobre mim e está confiante no meu trabalho, é hora de solicitar um orçamento.</center></h2>
 
     <form>
         <p>Aqui, você descreverá um pouco mais sobre sua empresa e o projeto que iremos criar juntes.</p>
-        <big> Nome completo: </big><input type="text" name="nome" placeholder="Digite seu nome completo*">
+        Nome completo:<input id="nome" type="text" name="nome" placeholder="Digite seu nome completo*">
         <br><br>  
 
-        <big> Seu Telefone: </big><input type="text" name="telefone" placeholder="Digite seu Telefone">
+        Seu Telefone: <input type="text" name="telefone" placeholder="Digite seu Telefone">
         <br><br>  
 
-        <big> Seu E-mail: </big><input type="email" name="email" placeholder="Digite seu E-mail*">
+        Seu E-mail: <input id="email" type="email" name="email" placeholder="Digite seu E-mail*">
         <br><br>  
 
-        <big>Nome da sua empresa/projeto: </big><textarea name="Mensagem" placeholder= "Digite o nome da sua empresa/projeto" ></textarea>
+        Nome da sua empresa/projeto: <textarea name="Mensagem" placeholder= "Digite o nome da sua empresa/projeto" ></textarea>
         <br><br> 
 
-        <big>Descrição do trabalho: </big><textarea name="Mensagem" placeholder= "Descreva o serviço que você quer contratar" ></textarea>
+        Descrição do trabalho: <textarea name="Mensagem" placeholder= "Descreva o serviço que você quer contratar" ></textarea>
         <br><br> 
 
-        <input style="background-color:rgba(241, 39, 3, 0.808); font-size:18px; color:white" type="submit" name="Enviar" value="Enviar!">
+        <button id="botao-enviar">Enviar!</button>
+    </form>
+
+    <script type="text/javascript" src="script.js"></script>
         
-        </form>
-        
-        <footer> 
-            <br> 
-            ©️ Desenvolvido por Bianca Trindade
-            <br>
-        </footer>
+    <footer> 
+        ©️ Desenvolvido por Bianca Trindade 
+    </footer>
 </body>
 </html>

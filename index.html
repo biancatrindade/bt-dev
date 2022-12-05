@@ -4,34 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu site</title>
+    <title> bT <dev> </title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="img/eu.ico">
-
-    <style>
-        nav {text-align: center;}
-        section {text-align: center;}
-        section3 {text-align: right;}
-
-    </style>
-
 </head>
 
 <body>
-    <img src="img/home.jpg" alt="Notebook com códigos na tela" width=1300 height=550>
+    <div id="menu" class="topnav">
+        <nav>
+            <a target="_self" href="orcamento.html">Orçamento</a>
+            <a target="_self" href="sobremim.html">Sobre mim</a>
+            <a target="_self" href="index.html">Home</a>
+        </nav>
+    </div>
     
-    <h1 style="font-family: Comfortaa"><center> bT < dev > </center></h1>
-
-    <h1><center>Menu</center></h1>
-
-    <nav style="font-size:25px">
-        <a target="_blank" href="index.html">Home</a>
-        <a target="_blank" href="sobremim.html">Sobre mim</a>
-        <a target="_blank" href="orcamento.html">Orçamento</a>
-    </nav>
-    <br>
-
-    <section style="background-color:#57bb8a; color: white; font-size:20px">
+    <div id="titulo">
+        <h1> bT < dev > </h1>
+    </div>
+  
+    <section id="introducao">
         <br>
         <h2> Seja bem-vinde ao meu site! </h2> <br>
         <h3> Aqui você encontrará um pouco mais sobre mim e minhas inspirações: </h3>
@@ -40,88 +31,58 @@
         <br>
     </section>
 
-    <section2 style="background-color:#eaebe6; font-size:20px">
-        <div>
-            <div style="float: left">
-                <img src="img/astronauta.jpg" alt="Astronauta em desenho com notebook" width=300 height=300>
-            </div>
-            <div>
-                <section3>
-                    <h1>Uma jornada de aprendizado</h1>
-                    <h4 style="color:#898f94"> 
-                    Em 2022 embarquei no desafio de aprender programação!<br>
-                    E não é que tem sido uma jornada emocionante?<br>
-                    Encontrei diversas mulheres incríveis no caminho que me trazem<br>
-                    força e a certeza de que essa é a minha praia. </h4>
-                </section3>
-            </div>
+    <section id="jornada">
+        <div id="astronauta">
+            <img src="img/astronauta.jpg" alt="Astronauta em desenho com notebook" width=350 height=350>
         </div>
-        <br><br><br><br><br>
-    </section2>
+        <div id="aprendizado">
+            <h1>Uma jornada de aprendizado</h1>
+            <h4>Em 2022 embarquei no desafio de aprender programação!<br>
+                E não é que tem sido uma jornada emocionante?<br>
+                Encontrei diversas mulheres incríveis no caminho que me trazem<br>
+                força e a certeza de que essa é a minha praia. </h4>
+        </div>
+    </section>
+    <br>
 
-    <section style="background-color:#57bb8a; color: white; font-size:20px;">
+    <section id="programadoras">
         <br>
-        <h1><center>Mulheres que <br> mudaram o mundo</center></h1>
+        <h1><center>Mulheres que mudaram o mundo</center></h1>
         <br>
-        <section id="AdaLovelace">
+        <div id="AdaLovelace" class="box">
             <a target="_blank" href="https://pt.wikipedia.org/wiki/Ada_Lovelace">
-                <img src="img/adalovelace.jpeg" alt="Foto de Ada Lovelace" width=150 height=200>
+                <img src="img/adalovelace.jpeg" alt="Foto de Ada Lovelace" width=250 height=250>
              </a>
-            <p>
-            Primeira pessoa a<br>
-            escrever um algoritmo para ser processado<br>
-            por uma máquina na<br> 
-            história da<br> 
-            computação<br>
-            </p>
-        </section>
+            <p>Primeira pessoa a escrever um algoritmo para ser processado por uma máquina na história da computação </p>
+            </div>
 
-        <section id="GraceHopper">
+        <div id="GraceHopper" class="box">
             <a target="_blank" href="https://pt.wikipedia.org/wiki/Grace_Hopper">
-                <img src="img/GraceHopper.jpg" alt="Foto de Grace Hopper" width=150 height=200>
+                <img src="img/GraceHopper.jpg" alt="Foto de Grace Hopper" width=250 height=250>
              </a>
-            <p>
-            Criadora da<br> 
-            linguagem de<br>
-            programação de alto<br>
-            nível Flow-Matic<br>
-            </p>
-        </section>
+            <p>Criadora da linguagem de programação de alto nível Flow-Matic </p>
+            </div>
 
-        <section id="KatherineJohnson">
+        <div id="KatherineJohnson" class="box">
             <a target="_blank" href="https://pt.wikipedia.org/wiki/Katherine_Johnson">
-                <img src="img/Katherine_Johnson.jpg" alt="Foto de Katherine Johnson" width=150 height=120>
+                <img src="img/Katherine_Johnson.jpg" alt="Foto de Katherine Johnson" width=250 height=250>
              </a>
-            <p>
-            Matemática, física e<br>
-            cientista espacial que<br>
-            teve papel<br>
-            fundamental nos<br>
-            cálculos das primeiras<br>
-            missões da Nasa à<br>
-            Lua
-            </p>
-        </section>
+            <p>Matemática, física e cientista espacial que teve papel fundamental nos cálculos das primeiras missões da Nasa à Lua</p>
+            </div>
 
-        <section id="DorothyVaughan">
+        <div id="DorothyVaughan" class="box">
             <a target="_blank" href="https://pt.wikipedia.org/wiki/Dorothy_Vaughan">
-                <img src="img/Dorothy.jpeg" alt="Foto de Dorothy Vaughan" width=150 height=120>
+                <img src="img/Dorothy.jpeg" alt="Foto de Dorothy Vaughan" width=250 height=250>
              </a>
-            <p>
-            Primeira mulher negra<br>
-            a ser promovida chefe<br>
-            de departamento na NASA
-            </p>
-        </section>
+            <p>Primeira mulher negra a ser promovida chefe de departamento na NASA</p>
+        </div>
         <br>
         <h3>Clique na foto para saber mais!</h3>
         <br>
     </section>
 
     <footer> 
-        <br> 
         ©️ Desenvolvido por Bianca Trindade
-        <br>
     </footer>
 </body>
 </html>
